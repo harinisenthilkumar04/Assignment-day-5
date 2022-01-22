@@ -1,0 +1,44 @@
+body{
+    background-color: salmon;
+    border-radius: 20%;
+    margin:0;
+}
+
+.navbar{size:1000px ;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar #navlogo{
+    width: 100px;
+    padding: 5px;
+
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar li{
+    display: inline-block
+}
+.navbar ul li a{
+    font-size: large;
+    padding: 10px;
+    color:salmon;
+    text-decoration: slategrey;
+}
+.navbar ul li a:hover{
+    color:turquoise;
+
+}
+h1{
+    color:rgb(99, 8, 99) ;
+    
+}
+p{
+    font:caption;
+    font-style: italic;
+    font-size: large;
+    font-stretch: extra-expanded;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(175, 37, 101);
+}
